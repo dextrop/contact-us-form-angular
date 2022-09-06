@@ -1,0 +1,9 @@
+2022-09-06 08:56:05.518974 :: Final Command
+2022-09-06 08:56:05.518983 :: {
+  "command": [
+    "angular",
+    "ui-lib",
+    "download",
+    "contact-us-form"
+  ]
+}

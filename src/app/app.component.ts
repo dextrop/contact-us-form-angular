@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FirestorecontrollerService } from './services/firestorecontroller.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'contact-us-form';
+
+  constructor(private Firebase: FirestorecontrollerService) {}
+
+  onSubmitted(event: any) {
+    let id = new Date().getTime().toString();
+    this.Firebase.add("contact-us-form", id, event);
+  }
 }

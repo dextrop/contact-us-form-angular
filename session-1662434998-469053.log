@@ -1,0 +1,9 @@
+2022-09-06 08:59:55.253434 :: Final Command
+2022-09-06 08:59:55.253445 :: {
+  "command": [
+    "angular",
+    "automations",
+    "download",
+    "integrate-firestore-db"
+  ]
+}
